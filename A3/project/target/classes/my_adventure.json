@@ -1,0 +1,199 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 100,
+        "start": "true",
+        "name": "The University Centre",
+        "short_description": "This is the centre of the university",
+        "long_description": "The UC features a broad variety of food",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "S"
+          },
+          {
+            "id": 102,
+            "dir": "E"
+          },
+          {
+            "id": 103,
+            "dir": "N" 
+          },
+          {
+            "id": 104,
+            "dir": "W" 
+          },
+          {
+            "id": 105,
+            "dir": "down"
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "name": "The Bus Stop",
+        "short_description": "its a bus stop...",
+        "long_description": "Lots of busses come and go",
+        "entrance": [
+          {
+            "id": 100,
+            "dir": "N"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Thronbrough Building",
+        "short_description": "Building for engineers",
+        "long_description": "One of the finer buildings on campus",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "McLaughlin Library",
+        "short_description": "A place to study",
+        "long_description": "You can faintly smell the tears of students oozing from the building",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "S"
+          },
+          {
+            "id": 106,
+            "dir": "N"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "name": "The University Bookstore",
+        "short_description": "Buy textbooks",
+        "long_description": "You can also buy school merchandise",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "E"
+          },
+          {
+            "id": 107,
+			      "dir": "up"
+          }
+        ],
+        "loot": [
+          {
+            "id": 4
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "name": "UC Basement",
+        "short_description": "The basement is packed with people",
+        "long_description": "You can obtain a bus pass from the basement today",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "up"
+          }
+        ],
+        "loot": [
+          {
+            "id": 5
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "name": "Creelmans",
+        "short_description": "You can smell something good",
+        "long_description": "There is a big lineup coming from the cafe",
+        "entrance": [
+          {
+            "id": 103,
+			      "dir": "S"
+          }
+        ],
+        "loot": [
+          {
+            "id": 6
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "name": "Tim Horton's Lounge",
+        "short_description": "You can buy breakfast here",
+        "long_description": "There is a huge lineup for Tim Hortons",
+        "entrance": [
+          {
+            "id": 104,
+			      "dir": "down"
+          }
+        ],
+        "loot": [
+          {
+            "id": 7
+          }
+        ]
+      }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "Lost student card",
+        "desc": "There is a picture of a student on the card"
+      },
+      {
+        "id": 2,
+        "name": "Tim Horton's Coffee",
+        "desc": "Coffee to keep you energized"
+      },
+      {
+        "id": 3,
+        "name": "How to java for dummies",
+        "desc": "Maybe you can java by reading this"
+      },
+      {
+        "id": 4,
+        "name": "$20 bill",
+        "desc": "You have money now"
+      },
+      {
+        "id": 5,
+        "name": "Bus pass",
+        "desc": "You can now travel off campus"
+      },
+      {
+        "id": 6,
+        "name": "Burger",
+        "desc": "You can fill your hunger with the burger"
+      },
+      {
+        "id": 7,
+        "name": "Farmer's Wrap",
+        "desc": "A delicious breakfast"
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "adventure": {
+    "room": [
+      {
+        "id": 100,
+        "start": "true",
+        "name": "The University Centre",
+        "short_description": "This is the centre of the university",
+        "long_description": "The UC features a broad variety of food",
+        "entrance": [
+          {
+            "id": 101,
+            "dir": "S"
+          },
+          {
+            "id": 102,
+            "dir": "E"
+          },
+          {
+            "id": 103,
+            "dir": "N" 
+          },
+          {
+            "id": 104,
+            "dir": "W" 
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "name": "The Bus Stop",
+        "short_description": "its a bus stop...",
+        "long_description": "Lots of busses come and go",
+        "entrance": [
+          {
+            "id": 100,
+            "dir": "N"
+          }
+        ],
+        "loot": [
+          {
+            "id": 1
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Thronbrough Building",
+        "short_description": "Building for engineers",
+        "long_description": "One of the finer buildings on campus",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "W"
+          }
+        ],
+        "loot": [
+          {
+            "id": 2
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "name": "McLaughlin Library",
+        "short_description": "A place to study",
+        "long_description": "You can faintly smell the tears of students oozing from the building",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "S"
+          }
+        ],
+        "loot": [
+          {
+            "id": 3
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "name": "The University Bookstore",
+        "short_description": "Buy textbooks",
+        "long_description": "You can also buy school merchandise",
+        "entrance": [
+          {
+            "id": 100,
+			      "dir": "E"
+          }
+        ],
+        "loot": [
+          {
+            "id": 4
+          }
+        ]
+      }
+    ],
+    "item": [
+      {
+        "id": 1,
+        "name": "Lost student card",
+        "desc": "There is a picture of a student on the card"
+      },
+      {
+        "id": 2,
+        "name": "Spilt coffee",
+        "desc": "Someone dropped their coffee..."
+      },
+      {
+        "id": 3,
+        "name": "Library puddle",
+        "desc": "The puddle forming in the library entrance continues to grow"
+      },
+      {
+        "id": 4,
+        "name": "Empty wallet",
+        "desc": "There is no money to be found"
+      }
+    ]
+  }
+}
